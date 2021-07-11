@@ -1,0 +1,104 @@
+name: cash_pump
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  desktop_window: ^0.4.0
+  localstorage: ^4.0.0+1
+  supercharged: ^2.0.0
+  puppeteer: ^2.0.0
+  line_awesome_flutter: ^ 1.1.0-nullsafety
+  fluttericon: ^2.0.0
+  superellipse_shape: ^0.2.0-nullsafety.0
+  morphing_text: ^1.0.0-nullsafety.1
+  animator: ^3.0.0
+  simple_animations: ^3.0.3
+  animated_clipper: ^0.2.0
+  automatic_animated_list: ^1.0.0
+  lazy_load_scrollview: ^1.3.0
+  scroll_to_index: ^2.0.0
+  visibility_detector: ^0.2.0-nullsafety.1
+  flutter_zoom_drawer: ^2.0.1
+  direct_select_flutter: ^1.1.0
+  percent_indicator: ^3.3.0-nullsafety.1
+  expandable: ^5.0.1
+  async_button_builder: ^2.1.0
+  flutter_blurhash: ^0.6.0
+  number_slide_animation: ^0.2.1
+  pinput: ^1.2.0
+  fl_chart: ^0.35.0
+  flutter_credit_card: ^2.0.0
+  credit_card_type_detector: ^2.0.0-nullsafety.0
+  layout: ^0.6.1
+  number_display: ^3.0.0
+  scrollable_clean_calendar: ^0.4.0
+  flutter_cupertino_datetime_picker: ^2.0.0
+  flutter_date_pickers: ^0.2.2
+  # vs_scrollbar: ^0.2.0
+  timeago: ^3.0.2
+  auto_size_text: ^3.0.0-nullsafety.0
+  auto_size_text_field: ^1.0.0-nullsafety.1
+  page_transition: ^2.0.1-nullsafety.0
+  buttons_tabbar: ^1.2.1
+  flutter_svg: ^0.21.0-nullsafety.0
+  flutter_spinkit: ^5.0.0
+  cupertino_icons: ^1.0.2
+  objectdb: ^1.2.1
+  clay_containers: ^0.3.2
+  glass_kit: ^2.0.0
+  flutter_inappwebview: ^5.3.2
+  sizer: ^2.0.12
+  synchronized: ^3.0.0
+  queue: ^3.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner:
+  flutter_gen_runner:
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/brands/
+    - assets/images/avatars/
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+
+flutter_gen:
+  output: lib/assets/
+  line_length: 80
+  null_safety: true
+
+  integrations:
+    flutter_svg: true
